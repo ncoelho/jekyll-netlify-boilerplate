@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Homepage
 width: expand
 hero:
     title: How can we help you?
