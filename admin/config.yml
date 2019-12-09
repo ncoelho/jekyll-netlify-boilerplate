@@ -20,12 +20,6 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - label: "Author"
-        name: "author"
-        widget: "select"
-        options:
-          - { label: "Dan Urbanowicz", value: "dan_urbanowicz" }
-          - { label: "John Doe", value: "john_doe" }
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
@@ -33,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
     # PAGES
   - name: "page"
     label: "Page"
-    folder: "pages"
+    folder: "/"
     sort: "title:asc"
     create: false
     slug: "{{slug}}"
@@ -48,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
 # DOCS
   - name: "docs"
     label: "Docs"
-    folder: "pages"
+    folder: "_docs"
     sort: "title:asc"
     create: false
     slug: "{{slug}}"
