@@ -43,7 +43,7 @@ kramdown:
   auto_ids: false
 
 plugins:
-
+ - 'jekyll-seo-tag'
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
