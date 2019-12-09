@@ -75,7 +75,7 @@ baseurl:            ""
 permalink:          /:title/
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://docs.jekyll.plus"
+url:                "https://ncoelho.github.io/jekyll-netlify-boilerplate/"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
 logo:               
