@@ -43,8 +43,14 @@ kramdown:
   auto_ids: false
 
 plugins:
- - 'jekyll-seo-tag'
- - 'jekyll-paginate'
+  - 'jekyll-seo-tag'
+  - 'jekyll-paginate'
+  - 'jekyll-github-metadata'
+  - 'jekyll-get-json'
+
+jekyll_get_json:
+  - data: team
+    json: 'https://api.github.com/repos/bluewallet/bluewallet/contributors'
 
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
@@ -78,7 +84,7 @@ permalink:          /:title/
 url:                "https://ncoelho.github.io/jekyll-netlify-boilerplate/"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo:               
+logo: bluedocs.svg              
 
 navbar:
     sticky:         false
