@@ -88,7 +88,7 @@ logo: bluedocs.svg
 
 navbar:
     sticky:         false
-    search:         true
+    search:         false
   
 # Default author settings
 author:
