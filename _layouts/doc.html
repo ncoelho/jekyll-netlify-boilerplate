@@ -25,6 +25,14 @@ layout: default
 
                 <article class="uk-article">
 
+                    {% if page.layout == 'doc' %}
+                        {% if site.data.translation[site.lang].mobile_nav_docs %}
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle>{{ p.title }}</a>
+                        {% else %}
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-navbar-toggle-icon data-uk-toggle>{{ p.title }}</a>
+                        {% endif %}
+                    {% endif %}
+
                     <h1 class="uk-article-title">{{ page.title | escape }}</h1>
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}

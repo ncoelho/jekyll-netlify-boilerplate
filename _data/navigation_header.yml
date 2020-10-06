@@ -1,6 +1,9 @@
 # Navbar left menu navigation links
 
-left:
+
+# Navbar right menu navigation links
+
+right:
   - title: Home
     url: /
 
@@ -10,22 +13,8 @@ left:
   - title: Blog
     url: /blog/
 
-  - title: Changelogs
-    dropdown:
-
-      - title: Timeline Style
-        url: /changelog-timeline/
-
-      - title: Post Style
-        url: /changelog-posts/
-
-
-# Navbar right menu navigation links
-
-right:
-
   - title: Changelog
-    url: /changelog-timeline/
+    url: /changelog-posts/
     button: primary-outline
 
   - title: Contact
