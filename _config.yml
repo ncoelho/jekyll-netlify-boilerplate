@@ -84,7 +84,7 @@ permalink:          /:title/
 url:                "https://ncoelho.github.io/jekyll-netlify-boilerplate/"
 
 # Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: bluedocs.svg              
+logo: logo-bluewallet.svg              
 
 navbar:
     sticky:         false

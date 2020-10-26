@@ -1,25 +1,31 @@
 # Navbar left menu navigation links
 
-
-# Navbar right menu navigation links
-
 right:
   - title: Home
     url: /
 
+  - title: Features
+    dropdown:
+
+      - title: Timeline Style
+        url: /changelog-timeline/
+
+      - title: Post Style
+        url: /changelog-posts/
+
   - title: Docs
     url: /docs/installation/
+# Navbar right menu navigation links
 
-  - title: Blog
-    url: /blog/
+# right:
 
-  - title: Changelog
-    url: /changelog-posts/
-    button: primary-outline
+  # - title: Changelog
+  #  url: /changelog-timeline/
+  #  button: primary-outline
 
-  - title: Contact
-    url: /contact/
-    button: success
+  # - title: Contact
+  #  url: /contact/
+  #  button: success
 
   # - title: Changelog
   #   url: /contact/
@@ -59,4 +65,4 @@ right:
 
   # - title: Contact
   #   url: /contact/
-  #   button: warning-outline
+  #   button: warning-outline 
