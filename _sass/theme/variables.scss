@@ -3,7 +3,7 @@
 
 // Color
 $global-color:                                #323247;
-$global-muted-color:                          #8f919e;
+$global-muted-color:                          #919EB3;
 $global-primary-background:                   #0070FF;
 $global-secondary-background:                 #222;
 $global-warning-background:                   #fbc418;
@@ -33,12 +33,12 @@ $text-lead-color:                               $global-muted-color;
 // Borders
 $global-border:                               #e5e5e5;
 $border-light:                                #ebecee;
-$border-xlight:                               #f5f5f5;
+$border-xlight:                               #EEF1F4;
 
 // Border radius
 $border-rounded-border-radius:                  5px;
-$border-radius-small:                           8px;
-$border-radius-medium:                          12px;
+$border-radius-small:                           6px;
+$border-radius-medium:                          6px;
 $border-radius-large:                           16px;
 
 // Pre & Code
@@ -123,7 +123,8 @@ $section-padding-vertical-m:                    60px;
 // Card
 $card-small-body-padding-horizontal:            25px;
 $card-small-body-padding-vertical:              25px;
-$card-body-padding-vertical-l:                  50px;
+$card-body-padding-vertical-l:                  32px;
+$card-body-padding-horizontal-l:          		16px;
 $card-default-color:                            $global-muted-color;
 $card-default-title-color:                      $global-color;
 

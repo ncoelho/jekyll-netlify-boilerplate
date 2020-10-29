@@ -6,7 +6,7 @@
 	height: 598px;
 }
 .uk-navbar {
-	padding: 24px 0;
+	padding: 26px 0;
 	a {
 		font-weight: 700;
 	}
@@ -29,6 +29,7 @@
     align-self: center;
     justify-content: center;
     padding: 0;
+    background-color: #1C1C1D;
 }
 .poster .shine {
   position: absolute;
@@ -51,8 +52,63 @@
           transition: 0.1s;
   background-image: url("{{ site.uploads | absolute_url }}/bluewallet.png");
 }
-
-
+.uk-card:hover {
+	transition: all 0.2s ease;
+}
+.newsletter {	
+	padding: 12px;
+	border: 1px solid #A5B7CA;
+	position: relative;
+	display: block;
+	transition: all 0.4s ease;
+	@media (max-width: 767px) {
+		margin-bottom: 32px !important;
+	}
+	input.email {
+		height: 50px;
+		border: 0;
+		width: 100%;
+		font-size: 16px;
+		font-weight: 500;
+		color: #7E91AE;
+		&::placeholder {
+			color: #7E91AE;
+		}
+		&:active, &:focus {
+			outline: none;
+		}
+	}
+	input.mc-button {
+		height: 50px;
+		border: 0;
+		background: #0070FF;
+		border-radius: 6px;
+		padding: 0 32px;
+		color: #ffffff;
+		font-size: 16px;
+		display: inline-block;
+		font-weight: 600;
+		position: absolute;
+		right: 12px;
+		top: 12px;
+	}
+}
+.socialinks {
+	font-size: 19px;
+	font-weight: 600;
+	a {
+		padding: 12px 16px !important;
+		color: #637082;
+		display: inline-block;
+		border-radius: 6px;
+		transition: all 0.4s ease;
+		&:hover {
+			background: #F2F4F7;
+			text-decoration: none;
+			color: #637082;
+		}
+	}
+}
 // System fonts
 @import "system-font-css/_system-font";
 

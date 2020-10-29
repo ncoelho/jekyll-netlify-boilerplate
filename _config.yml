@@ -52,6 +52,8 @@ jekyll_get_json:
   - data: team
     json: 'https://api.github.com/repos/bluewallet/bluewallet/contributors'
 
+
+
 # Include in processing (e.g. Netlify directives)
 # Uncomment before use
 
@@ -127,24 +129,25 @@ authors:
 social:
     email:
     website:
-    facebook:       https://www.facebook.com/
+    facebook:       
     flickr:
     dribbble:
-    github:
+    github:          https://github.com/bluewallet/bluewallet
     googleplus:
-    instagram:      https://www.instagram.com/
+    instagram:      
     linkedin:
     pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
+    twitter:         https://twitter.com/@bluewalletio
+    vimeo:          
     youtube:
+    telegram:        https://t.me/bluewallet
 
 # Share button
 share:
-    post:           true # Display share buttons on a post page
-    doc:            true # Display share buttons on a doc page
-    twitter:        username # Enable by adding Twitter handle 
-    facebook:       true # Enable by setting true (Facebook handle not required)
+    post:           false # Display share buttons on a post page
+    doc:            false # Display share buttons on a doc page
+    twitter:        false # Enable by adding Twitter handle 
+    facebook:       false # Enable by setting true (Facebook handle not required)
 
 # Default footer image settings
 footer:

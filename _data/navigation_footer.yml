@@ -1,10 +1,19 @@
 # Footer navigation links
 
-- title: Home
-  url: /
+- title: Desktop app
+  url: /desktop-bitcoin-wallet
+
+- title: Local Trader
+  url: /local-trader/
+
+- title: LNDHub
+  url: /lndhub/
+
+- title: Apple watch
+  url: /watch-app/
+
+- title: Documentation
+  url: /docs/
 
 - title: Blog
   url: /blog/
-
-- title: Contact
-  url: /contact/
