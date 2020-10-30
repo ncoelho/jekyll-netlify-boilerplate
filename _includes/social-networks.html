@@ -1,6 +1,9 @@
 {% if site.social.twitter %}
-<div class="uk-first-column">
-    <a href="{{ site.social.twitter }}" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" target="_blank"></a>
+<div class="uk-first-column uk-text-center">
+    <a href="{{ site.social.twitter }}" class="uk-icon-link uk-icon" target="_blank">
+    <img src="{{ site.uploads | absolute_url }}/twitter.svg" alt="twitter bluewallet">
+        Twitter
+    </a>    
 </div>
 {% endif %}
 {% if site.social.facebook %}
@@ -48,11 +51,6 @@
     <a href="{{ site.social.youtube }}" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon" target="_blank"></a>
 </div>
 {% endif %}
-{% if site.social.github %}
-<div>
-    <a href="{{ site.social.github }}" data-uk-icon="icon: github" class="uk-icon-link uk-icon" target="_blank"></a>
-</div>
-{% endif %}
 {% if site.social.email %}
 <div>
     <a href="{{ site.social.email }}" data-uk-icon="icon: mail" class="uk-icon-link uk-icon" target="_blank"></a>
@@ -61,5 +59,21 @@
 {% if site.social.website %}
 <div>
     <a href="{{ site.social.website }}" data-uk-icon="icon: link" class="uk-icon-link uk-icon" target="_blank"></a>
+</div>
+{% endif %}
+{% if site.social.telegram %}
+<div class="uk-text-center">
+    <a href="{{ site.social.telegram }}" class="uk-icon-link uk-icon" target="_blank">
+    <img src="{{ site.uploads | absolute_url }}/telegram.svg" alt="telegram bluewallet">
+        Telegram
+    </a>
+</div>
+{% endif %}
+{% if site.social.github %}
+<div class="uk-text-center">
+    <a href="{{ site.social.github }}" class="uk-icon-link uk-icon" target="_blank">
+    <img src="{{ site.uploads | absolute_url }}/github.svg" alt="github bluewallet">
+        Github
+    </a>
 </div>
 {% endif %}

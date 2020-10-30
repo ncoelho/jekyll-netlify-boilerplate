@@ -1,16 +1,31 @@
 # Boxes include navigation
 
-- title: Getting Started
-  desc: Get started fast with installation and theme setup instructions
-  icon: cog
+- title: Watch-only Wallets
+  desc: Easily connect to your hardware wallet through watch-only and PSBTs support.
+  icon: watch-only
   doc: installation
 
-- title: Theme Features
-  desc: Lean about all the theme options, features and how to use them
-  icon: settings
+- title: Multisig Vaults
+  desc: The best security available on the Bitcoin protocol. Create wallets with multiple keys.
+  icon: ms-vault
   doc: hero
 
-- title: Customization
-  desc: Get help or tailor the theme to your specific requirements
-  icon: code
+- title: Lightning Wallets
+  desc: Unfairly cheap and blazing fast transactions on Bitcoin.
+  icon: lightning
+  doc: customize
+
+- title: Notifications
+  desc: With push notifications for pending and confirmed transactions.
+  icon: notifications
+  doc: customize
+
+- title: Plausible Deniability
+  desc: Create multiple storages or fake ones in case of a forced disclosure.
+  icon: pdeniability
+  doc: customize
+
+- title: Fees & Transactions control
+  desc: Control fees. Easily Bump, Cancel or Batch transactions. With RBF and CPFP.
+  icon: fees
   doc: customize

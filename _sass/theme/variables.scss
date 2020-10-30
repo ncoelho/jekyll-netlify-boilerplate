@@ -3,8 +3,8 @@
 
 // Color
 $global-color:                                #323247;
-$global-muted-color:                          #8f919e;
-$global-primary-background:                   #3F78DC;
+$global-muted-color:                          #919EB3;
+$global-primary-background:                   #0070FF;
 $global-secondary-background:                 #222;
 $global-warning-background:                   #fbc418;
 $global-success-background:                   #403e56;
@@ -21,8 +21,9 @@ $global-large-font-size:                        1.375rem;   // H3
 $global-medium-font-size:                       1.125rem;   // H4
 $global-small-font-size:                        0.875rem;
 $xsmall-font-size:                              0.8125rem;
-$heading-primary-font-size:                     2.875rem;
-$heading-primary-font-size-m:                   3.00rem;
+$heading-primary-font-size:                     1.8rem;
+$heading-primary-font-size-m:                   3.8rem;
+$heading-primary-font-size-s:                   0.8rem;
 $base-heading-font-weight:                      bold;
 $base-heading-margin-top:                       50px;
 $base-h2-line-height:                           1.4;
@@ -32,12 +33,12 @@ $text-lead-color:                               $global-muted-color;
 // Borders
 $global-border:                               #e5e5e5;
 $border-light:                                #ebecee;
-$border-xlight:                               #f5f5f5;
+$border-xlight:                               #EEF1F4;
 
 // Border radius
 $border-rounded-border-radius:                  5px;
-$border-radius-small:                           8px;
-$border-radius-medium:                          12px;
+$border-radius-small:                           6px;
+$border-radius-medium:                          6px;
 $border-radius-large:                           16px;
 
 // Pre & Code
@@ -89,7 +90,7 @@ $navbar-background:                           #fff;
 $navbar-nav-item-color:                         $global-color;
 $navbar-nav-item-hover-color:                   $global-primary-background;
 $navbar-nav-item-active-color:                  $global-primary-background;
-$navbar-nav-item-font-size:                     0.9375rem;
+$navbar-nav-item-font-size:                     1rem;
 $navbar-nav-item-text-transform:                none;
 $navbar-toggle-color:                           $global-color;
 $navbar-toggle-hover-color:                     $global-primary-background;
@@ -122,7 +123,8 @@ $section-padding-vertical-m:                    60px;
 // Card
 $card-small-body-padding-horizontal:            25px;
 $card-small-body-padding-vertical:              25px;
-$card-body-padding-vertical-l:                  50px;
+$card-body-padding-vertical-l:                  32px;
+$card-body-padding-horizontal-l:          		16px;
 $card-default-color:                            $global-muted-color;
 $card-default-title-color:                      $global-color;
 
