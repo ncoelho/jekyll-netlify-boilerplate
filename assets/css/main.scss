@@ -131,6 +131,14 @@
 .explain img{
 	max-width: 160px;
 }
+.uk-badge {
+	border-radius: 500px;
+	background:  #0070FF;
+	padding: 13px 20px;
+	display: inline-block;
+	color: #ffffff !important;
+	font-weight: bold;
+}
 // System fonts
 @import "system-font-css/_system-font";
 
