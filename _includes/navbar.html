@@ -106,7 +106,7 @@
                                     {% else %}
                                         <li><a href="#">{{ link.title }}</a>
                                         {% if link.dropdown != null %}
-                                            <div class="uk-navbar-dropdown">
+                                            <div class="uk-navbar-dropdown uk-box-shadow-medium border-radius-medium border-light" uk-dropdown="mode: click">
                                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                                     {% for child in link.dropdown %}
                                                     {% if child.url != null %}
