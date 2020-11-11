@@ -7,11 +7,17 @@ right:
   - title: Features
     dropdown:
 
-      - title: Timeline Style
-        url: /changelog-timeline/
+      - title: Bitcoin wallet
+        url: /bitcoin-wallet/
 
-      - title: Post Style
-        url: /changelog-posts/
+      - title: Watch-only wallet
+        url: /watch-only/
+
+      - title: Lightning wallet
+        url: /lightning/
+
+      - title: Desktop app
+        url: /desktop-bitcoin-wallet/
 
   - title: Docs
     url: /docs/installation/
