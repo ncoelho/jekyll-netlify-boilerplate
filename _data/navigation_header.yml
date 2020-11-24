@@ -13,6 +13,9 @@ right:
       - title: Watch-only wallet
         url: /watch-only/
 
+      - title: Multisig Vault
+        url: /multisig-wallet/
+
       - title: Lightning wallet
         url: /lightning/
 
