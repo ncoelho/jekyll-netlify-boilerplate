@@ -1,6 +1,7 @@
 - title: Getting Started
   docs:
   - create-bitcoin-wallet
+  - create-lightning-wallet
   - installation
   - setup
   - navigation

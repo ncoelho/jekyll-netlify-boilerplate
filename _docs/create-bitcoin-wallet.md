@@ -7,7 +7,7 @@ Creating a Bitcoin wallet on BlueWallet is easy.
 
 You can either click on the "Add now" button or the "+" icon in the top right corner
 
-{% include phone-screenshot-image.html lightbox="true" img="bluewallet-first-page.png" alt="BlueWallet's first page" %}
+{% include phone-screenshot-image.html img="bluewallet-first-page.png" alt="BlueWallet's first page" %}
 
 That will take you to the "add wallet" screen.
 
@@ -15,7 +15,7 @@ That will take you to the "add wallet" screen.
 
 In the "add wallet" screen, you can choose between a Bitcoin wallet and a Lightning wallet.
 
-{% include phone-screenshot-image.html lightbox="true" img="add-bitcoin-wallet.png" alt="Add bitcoin wallet page" %}
+{% include phone-screenshot-image.html img="add-bitcoin-wallet.png" alt="Add bitcoin wallet page" %}
 
 For Bitcoin, click on the Bitcoin button. (If you want to create a Lightning wallet, see [this guide](/docs/create-lightning-wallet).)
 
@@ -28,7 +28,7 @@ You may also name your wallet, or leave the default name.
 If you have "Advanced mode" enabled in general settings,
 you'll see more options for creating the wallet.
 
-{% include phone-screenshot-image.html lightbox="true" img="add-bitcoin-wallet-with-advanced-options.png" alt="Add Bitcoin wallet with advanced options" %}
+{% include phone-screenshot-image.html img="add-bitcoin-wallet-with-advanced-options.png" alt="Add Bitcoin wallet with advanced options" %}
 
 #### Wallet type
 
@@ -60,7 +60,7 @@ Instead of creating a new wallet, you can chose to import a wallet from another 
 
 Click on "Import wallet" to open the import screen.
 
-{% include phone-screenshot-image.html lightbox="true" img="import-wallet.png" alt="Import wallet" %}
+{% include phone-screenshot-image.html img="import-wallet.png" alt="Import wallet" %}
 
 In this text area you can post your: mnemonic, private key or WIF.
 
