@@ -3,29 +3,29 @@
 - title: Watch-only Wallets
   desc: Easily connect to your hardware wallet through watch-only and PSBTs support.
   icon: watch-only
-  doc: installation
+  url: /watch-only/
 
 - title: Multisig Vaults
   desc: The best security available on the Bitcoin protocol. Create wallets with multiple keys.
   icon: ms-vault
-  doc: hero
+  url: /multisig-wallet/
 
 - title: Lightning Wallets
   desc: Unfairly cheap and blazing fast transactions on Bitcoin.
   icon: lightning
-  doc: customize
+  url: /lightning/
 
 - title: Notifications
   desc: With push notifications for pending and confirmed transactions.
   icon: notifications
-  doc: customize
+  url: /watch-only/
 
 - title: Plausible Deniability
   desc: Create multiple storages or fake ones in case of a forced disclosure.
   icon: pdeniability
-  doc: customize
+  url: /watch-only/
 
 - title: Fees & Transactions control
   desc: Control fees. Easily Bump, Cancel or Batch transactions. With RBF and CPFP.
   icon: fees
-  doc: customize
+  url: /watch-only/
