@@ -2,7 +2,10 @@
   docs:
   - create-bitcoin-wallet
   - create-lightning-wallet
+  - backup-wallet
+  - recover-wallet
   - manual-entropy
+  - batching
   - installation
   - setup
   - navigation
