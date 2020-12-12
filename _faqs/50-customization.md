@@ -1,8 +1,16 @@
 ---
-title: Do you provide customization services for your items?
-categories: [presale]
+title: Payment in transit
+categories: [problems]
 ---
 
-Item support does not include services to modify or extend the item beyond the original features, style and functionality described on the item page. 
+This state happens when your payment was sent to the network, but it didn't get a response back. So bluewallet doesn't know what happen, if it failed, if it succeed, etc.
 
-For customization services that will help you tailor the item to your specific requirements, please [contact us](https://themeforest.net/item/docs-responsive-documentation-manual-jekyll-theme/21131076/support) to see if we are available to offer paid customization service or check out service providers on [Envato Studio](https://studio.envato.com/).
+This payment usually enters in a "limbo" state that can go from 24h up to some days.
+
+Bluewallet will try every day to see if it can get a status of the payment.
+
+The payment gets unlock and available on your wallet again, when the timeout from the channels on each node it passed finished.
+
+Usually the timeout on each node is 24h, so imagine your payment had 3 hops and passed through 3 nodes, You will need to wait 62h to recover your funds.
+
+This is the worst known case at the moment on the network.
