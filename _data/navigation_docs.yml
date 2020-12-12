@@ -1,5 +1,6 @@
-- title: Getting Started
+- title: Help section
   docs:
+  - intro
   - create-bitcoin-wallet
   - create-lightning-wallet
   - backup-wallet
@@ -14,6 +15,18 @@
   - docs
   - comments
   - analytics
+
+- title: Hardware Wallets
+  docs:
+  - coldcard
+  - coldcard-dropbox
+  - coldcard-watch
+
+- title: LNDhub
+  docs:
+  - lndhub-ubuntu
+  - lndhub-macos
+  - lndhub-raspibolt
 
 - title: Theme Features
   docs:
