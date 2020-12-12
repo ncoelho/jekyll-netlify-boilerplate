@@ -1,8 +1,8 @@
 ---
 title: How to create a Bitcoin wallet
-tags: [setup]
+tags:
+  - setup
 ---
-
 Creating a Bitcoin wallet on BlueWallet is easy.
 
 You can either click on the "Add now" button or the "+" icon in the top right corner
@@ -49,8 +49,6 @@ The first group of options is for the wallet type:
 #### Manual entropy
 
 BlueWallet supports manual entropy. See [here](./manual-entropy.md) for more details.
-
-</div>
 
 When you're ready, you can click on "Create" to make your new wallet.
 
