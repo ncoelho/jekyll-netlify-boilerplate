@@ -1,5 +1,8 @@
 - title: Getting Started
   docs:
+  - create-bitcoin-wallet
+  - create-lightning-wallet
+  - manual-entropy
   - installation
   - setup
   - navigation
