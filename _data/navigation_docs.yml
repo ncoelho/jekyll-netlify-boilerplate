@@ -7,20 +7,18 @@
   - recover-wallet
   - manual-entropy
   - batching
-  - installation
-  - setup
-  - navigation
-  - footer
-  - posts
-  - docs
-  - comments
-  - analytics
+  - multisig-spend
 
 - title: Hardware Wallets
   docs:
   - coldcard
   - coldcard-dropbox
   - coldcard-watch
+  - cobo-vault
+
+- title: Local Trader
+  docs:
+  - local-trader
 
 - title: LNDhub
   docs:
@@ -28,28 +26,3 @@
   - lndhub-macos
   - lndhub-raspibolt
 
-- title: Theme Features
-  docs:
-  - hero
-  - boxes
-  - featured
-  - videos
-  - faq
-  - team
-  - cta
-  - changelog
-  - contact
-  - media
-  - toc
-  - alerts
-
-- title: Customization
-  docs:
-  - translation
-  - customize
-  - development
-  - sources
-
-- title: Help
-  docs:
-  - support
