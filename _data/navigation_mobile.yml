@@ -3,15 +3,8 @@
 - title: Home
   url: /
 
+- title: Features
+  url: /features/
+
 - title: Docs
-  url: /docs/installation/
-
-- title: Blog
-  url: /blog/
-
-- title: Changelog
-  url: /changelog-timeline/
-
-- title: Contact
-  url: /contact/
-  button: success
+  url: /docs/intro/

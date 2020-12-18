@@ -27,9 +27,9 @@ layout: default
 
                     {% if page.layout == 'doc' %}
                         {% if site.data.translation[site.lang].mobile_nav_docs %}
-                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle>{{ p.title }}</a>
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span uk-icon="icon: lifesaver"></span>&nbsp;Documentation</a>
                         {% else %}
-                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-navbar-toggle-icon data-uk-toggle>{{ p.title }}</a>
+                            <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span uk-icon="icon: lifesaver"></span>&nbsp;Documentation</a>
                         {% endif %}
                     {% endif %}
 
