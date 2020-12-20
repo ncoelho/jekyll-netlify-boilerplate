@@ -9,7 +9,7 @@ keywords: []
 slug: /@nvcoelho/marketplace-removed-from-ios-app-5630a5c7d2e4
 ---
 
-![](img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
+![](/_posts/img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
 undefined
 
 Last week we got a call from an Apple employee. That call was about removing our “marketplace” feature.

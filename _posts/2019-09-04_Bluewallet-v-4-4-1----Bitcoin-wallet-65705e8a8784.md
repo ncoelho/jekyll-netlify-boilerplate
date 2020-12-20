@@ -19,7 +19,7 @@ The ability to Send MAX, one of the most requested features appears when you tap
 
 Particularly useful if you want to migrate your wallets to Bech32 wallets ;)
 
-![](img/1__meQxWp__U0428GlEkJKBqeg.png)
+![](/_posts/img/1__meQxWp__U0428GlEkJKBqeg.png)
 undefined
 
 ### Scan to receive (lnurl spec) by @fiatjaf
@@ -34,7 +34,7 @@ Basically it goes like this:
 4.  In the case of **lnurl-withdraw**, for example, the server response will contain some parameters (min/max, default description) for the invoice that will be generated in the user wallet;
 5.  The wallet proceeds with the subprotocol. In the case of **lnurl-withdraw**, for example, it will display an invoice generation window prefilled with the parameters returned by the server, and, upon confirmation by the user, send the invoice back to the server, which will pay it.
 
-![](img/1__JZdpyNAQs0np2wgCpoHDrw.gif)
+![](/_posts/img/1__JZdpyNAQs0np2wgCpoHDrw.gif)
 undefined
 
 [Source](https://telegra.ph/lnurl-a-protocol-for-seamless-interaction-between-services-and-Lightning-wallets-08-19)
@@ -47,7 +47,7 @@ Can be used on: [Kriptode](https://kriptode.com/), [Lightning Gifts](https://lig
 
 The ability to hide your balance is a small privacy improvement. With it you now don’t need to be afraid of opening your wallet in public or over the shoulder kind of situations for instance.
 
-![](img/1__l__z95zazGnMJMuoPyBNHxg.png)
+![](/_posts/img/1__l__z95zazGnMJMuoPyBNHxg.png)
 undefined
 
 #### Other noticeable improvements on this release
