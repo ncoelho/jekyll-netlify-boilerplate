@@ -1,7 +1,7 @@
 ---
 layout: post
 title: v5.3.5 — SendMax on all wallets
-date: '2020-05-07 12:44:00'
+date: 2020-05-07 12:44:00
 author: john_doe
 categories: [news, updates]
 ---

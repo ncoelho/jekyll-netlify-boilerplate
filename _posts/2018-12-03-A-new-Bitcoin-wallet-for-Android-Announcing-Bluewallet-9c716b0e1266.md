@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A new Bitcoin wallet for Android-Announcing Bluewallet
-date: '2018-12-03 09:27:00'
+date: 2018-12-03 09:27:00
 author: john_doe
 categories: [news, updates]
 ---

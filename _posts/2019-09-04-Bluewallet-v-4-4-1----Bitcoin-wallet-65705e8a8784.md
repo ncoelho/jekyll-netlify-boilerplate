@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bluewallet v.4.4.1  — Bitcoin wallet
-date: '2019-09-04 09:27:00'
+date: 2019-09-04 09:27:00
 author: john_doe
 categories: [news, updates]
 ---
