@@ -57,7 +57,7 @@ We just started, and after hacking our wallet in React Native (props to [Igor](h
 
 **Our first Prototype in Production**
 
-![](img/1__BkxRuZqPs__H8fq1U5WYT__Q.png)
+![](/_posts/img/1__BkxRuZqPs__H8fq1U5WYT__Q.png)
 
 I remember that Igor was not really happy when we were talking about it, and I said something like “looks like a prototype, it’s not there yet…” :D
 
@@ -69,9 +69,9 @@ Wallets need to step up their game on basic things: like GUI quality, navigation
 
 Here’s a little preview on how we plan to do just that.
 
-![](img/1__Ce1O88UQUi7LeudYMnn2SA.gif)
+![](/_posts/img/1__Ce1O88UQUi7LeudYMnn2SA.gif)
 
-![](img/1__xSS3BEad9Wx9BpmVoe2W4A.png)
+![](/_posts/img/1__xSS3BEad9Wx9BpmVoe2W4A.png)
 
 So pretty much, a lot of catching up is going on a the moment. But we are slowly working on this every day. We will get there!
 
@@ -89,7 +89,7 @@ The way we transfer, keep and secure our personal value will never be the same.
 
 So let’s see how can a first, next generation wallet do that…
 
-![](img/1__QuLtnA__EGWJTNAJ__Nsk__7A.gif)
+![](/_posts/img/1__QuLtnA__EGWJTNAJ__Nsk__7A.gif)
 
 In this concept (just a concept) we are seeing a wallet that features a marketplace. Imagine an app (a wallet) that provides the ability for other services to live and be built on top of it. Think about Messenger apps or wechat mini-programs. Where developers have APIs and pre-made Interfaces to create their services on.
 
@@ -107,7 +107,7 @@ The ability to send money to your friends, pay for your food delivery to your lo
 
 QR codes will die, and addresses will be something users won’t interact with.
 
-![](img/1__jhzjE2eK1sS8lEDutaQKgw.gif)
+![](/_posts/img/1__jhzjE2eK1sS8lEDutaQKgw.gif)
 
 At the end of the day, it’s about people and not about the tech. This example aims to exemplify that. Users, services, brands and humans will directly interact with Bitcoin everyday.
 

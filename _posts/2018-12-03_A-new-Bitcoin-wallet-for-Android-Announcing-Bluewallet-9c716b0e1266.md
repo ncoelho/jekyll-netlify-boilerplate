@@ -13,7 +13,7 @@ It’s here! It took us a while. But the Android version of [Blue Wallet is live
 
 ### [Download it here for Android](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet)
 
-![](img/1____srLIaM0M9aEFIoIdCjsEw.png)
+![](/_posts/img/1____srLIaM0M9aEFIoIdCjsEw.png)
 undefined
 
 ### **What is Blue Wallet?**
