@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A glimpse on the future of Bitcoin UX
-date: '2018-10-01 15:27:00'
+date: 2018-10-01 15:27:00
 author: john_doe
 categories: [news, updates]
 ---

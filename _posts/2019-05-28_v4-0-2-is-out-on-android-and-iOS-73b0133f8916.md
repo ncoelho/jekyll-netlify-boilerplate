@@ -1,7 +1,7 @@
 ---
 layout: post
 title: v4.0.2 is out on android and iOS
-date: '2019-05-28 09:45:00'
+date: 2019-05-28 09:45:00
 author: john_doe
 categories: [news, updates]
 ---
