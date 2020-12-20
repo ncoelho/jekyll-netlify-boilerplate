@@ -3,13 +3,15 @@ layout: post
 title: Bitcoin Wallet for Desktop - v5.5.6
 date: 2020-08-28 08:52:00
 author: john_doe
-categories: [news, updates]
+categories:
+  - news
+  - updates
 ---
 
-BlueWallet for Desktop is out on the mac store 
 
 ![](/uploads/blog/1__ylHJ4Hf5by83gH6JS5HGFA.png)
 
+BlueWallet for Desktop is out on the mac store 
 
 This is the first [Bitcoin-only wallet](https://bluewallet.io) available on the mac store for millions of users. And, a huge effort from the team to bring to the Bitcoin community our first desktop product.
 
@@ -47,8 +49,8 @@ Give it a try, send feedback. Let’s build the revolution together :)
 
 **How can you help?**
 
-*   Are you a developer? [Here is the place](https://github.com/BlueWallet/BlueWallet).
-*   Not a developer. Give us a review on the app stores, that helps immensely. Join our [beta access](https://testflight.apple.com/join/8KtgcwC6) and help us test and bug fix. Provide feedback.
-*   Are you a Bitcoin OG or investor and you believe in what we are building? Drop me a line (n@bluewallet.io).
+* Are you a developer? [Here is the place](https://github.com/BlueWallet/BlueWallet).
+* Not a developer. Give us a review on the app stores, that helps immensely. Join our [beta access](https://testflight.apple.com/join/8KtgcwC6) and help us test and bug fix. Provide feedback.
+* Are you a Bitcoin OG or investor and you believe in what we are building? Drop me a line (n@bluewallet.io).
 
 Thank you for reading and any feedback, comments, thoughts and violent reactions, I’m all yours. See you around!
