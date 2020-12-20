@@ -22,7 +22,7 @@ Next being what we will be working on and will come sooner than later.
 
 #### Bech32 — Native SegWit as the default wallet
 
-![](/_posts/img/1__JueZcC5e5L78fmq7Rop04A.png)
+![](../_posts/img/1__JueZcC5e5L78fmq7Rop04A.png)
 
 Bluewallet [supports many address types](https://bluewallet.io/bitcoin-wallet/). During 2019, we invested most of our time improving and testing our Bech32 wallets. They are now a powerful open financial systems available to anyone for free. And here’s what you can do with them:
 
@@ -38,7 +38,7 @@ It seems that the time has come, and as [Bitcoin Core](https://bitcoincore.org/)
 
 #### BTCPay Server integration
 
-![](/_posts/img/1__xCzKdweAJ__YNrvXwhkqfTw.png)
+![](../_posts/img/1__xCzKdweAJ__YNrvXwhkqfTw.png)
 undefined
 
 [BTCPay](https://btcpayserver.org/) has become the Swiss Army knife of the Bitcoin tech stack. From developing applications, running nodes, to integrating with hardware wallets, etc.
@@ -57,7 +57,7 @@ This opens interesting scenarios, where people would be able to hack cool things
 *   [Github Bluewallet issue](https://github.com/BlueWallet/BlueWallet/issues/328)
 *   [Chat room on BTCPay](https://chat.btcpayserver.org/btcpayserver/channels/bluewallet-btcpay)
 
-![](/_posts/img/1__WgPKeu2PHYkA4Jr0JnaThA.png)
+![](../_posts/img/1__WgPKeu2PHYkA4Jr0JnaThA.png)
 undefined
 
 #### Hodl Hodl integration
@@ -74,8 +74,8 @@ No-KYC exchange, non-custodial, P2P transactions, kick-ass multi-sig tech, Light
 
 Still at a very early stage, so this is what we can show at the moment. But pretty sure this one will blow many people’s minds.
 
-![](/_posts/img/1__1UgOVs9myOAfURf8t3lrEg.png)
-undefined![](/_posts/img/1__o0uBYENEVmezDzSSZf1KBQ.png)
+![](../_posts/img/1__1UgOVs9myOAfURf8t3lrEg.png)
+undefined![](../_posts/img/1__o0uBYENEVmezDzSSZf1KBQ.png)
 undefined
 
 **We are a small team of Bitcoin users trying to help on bringing Bitcoin to the people and the people to Bitcoin — through beautifully crafted open source software.**

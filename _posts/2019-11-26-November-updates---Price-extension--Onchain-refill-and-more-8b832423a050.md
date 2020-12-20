@@ -10,7 +10,7 @@ We have been busy building, that’s a good way to be busy and we haven’t upda
 
 We’ve release to production versions 4.5.2, 4.6.0, 4.7.0, 4.7.1 and 4.8.0. These versions include minor new features, bug fixes and user experience improvements. Lots of polishing and small tweaks to make [bluewallet](https://bluewallet.io) more solid and a better free open source product for the community.
 
-![](/_posts/img/1__KNs1nTrAooGXllARG1kizw.png)
+![](../_posts/img/1__KNs1nTrAooGXllARG1kizw.png)
 
 #### New features
 
@@ -26,7 +26,7 @@ We’ve release to production versions 4.5.2, 4.6.0, 4.7.0, 4.7.1 and 4.8.0. The
 *   Better initial HD rescan
 *   New nemonic backup screen
 
-![](/_posts/img/1__Y3NBaMKtXaWMvxx2YPI7__Q.png)
+![](../_posts/img/1__Y3NBaMKtXaWMvxx2YPI7__Q.png)
 
 #### Removed features
 
