@@ -3,7 +3,7 @@ layout: post
 title: Work in Progress — Building a Bitcoin wallet
 date: '2019-12-02 08:27:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 Olá! 👋

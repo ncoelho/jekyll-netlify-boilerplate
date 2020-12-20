@@ -3,7 +3,7 @@ layout: post
 title: Bitcoin Wallet for Desktop - v5.5.6
 date: '2020-08-28 08:52:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 BlueWallet for Desktop is out on the mac store 

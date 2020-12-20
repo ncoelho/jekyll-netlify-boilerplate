@@ -3,7 +3,7 @@ layout: post
 title: v4.0.2 is out on android and iOS
 date: '2019-05-28 09:45:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 update on [bluewallet.io](https://bluewallet.io)

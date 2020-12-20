@@ -3,7 +3,7 @@ layout: post
 title: Bluewallet v.4.4.1  — Bitcoin wallet
 date: '2019-09-04 09:27:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 Bluewallet v.4.4.1, [mobile Bitcoin wallet for iOS and android](https://bluewallet.io) is out and there are some cool new features that you should know about. Mainly the ability to send all funds, the ability to have a bit more privacy by allow you to hide your balances and the super cool “Scan to receive”, a new functionality available for Lightning based on _lnurl spec_.

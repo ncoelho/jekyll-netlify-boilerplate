@@ -3,7 +3,7 @@ layout: post
 title: v5.3.5 — SendMax on all wallets
 date: '2020-05-07 12:44:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 Version 5.3.5 of [BlueWallet Bitcoin wallet](https://bluewallet.io) is out on iOS and android. And, as usual is full of improvements and bug fixes. Let’s take a closer look on them.
