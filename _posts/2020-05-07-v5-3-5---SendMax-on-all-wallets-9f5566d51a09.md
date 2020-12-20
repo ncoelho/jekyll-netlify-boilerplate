@@ -10,21 +10,21 @@ Version 5.3.5 of [BlueWallet Bitcoin wallet](https://bluewallet.io) is out on iO
 
 This version includes a major refactor on all wallet types. With **PSBT**, **Send** and **SendMax** features added to **all wallets**. Includes Bread wallet type, allowing easy import to BlueWallet.
 
-![](../_posts/img/1__I6D9MS__xv7ZLI4vNs7kiqw.gif)
+![](/uploads/blog/1__I6D9MS__xv7ZLI4vNs7kiqw.gif)
 undefined
 
 Users can now Sell FIAT and easily Buy Bitcoin directly in the wallet, through [@MoonPayHQ](https://twitter.com/MoonPayHQ) in the US and EU. And [@XanpoolOfficial](https://twitter.com/XanpoolOfficial) in Southeast Asia.
 
-![](../_posts/img/1__WVW3JvNUl77gU5Z0ZdsHBA.jpeg)
+![](/uploads/blog/1__WVW3JvNUl77gU5Z0ZdsHBA.jpeg)
 
 **Broadcast a transaction** feature is now available from the Settings > Network > Broadcast. Or from your Wallet details.
 
-![](../_posts/img/1__QIJKuz8hp7k9U1y__qT0MLw.jpeg)
+![](/uploads/blog/1__QIJKuz8hp7k9U1y__qT0MLw.jpeg)
 undefined
 
 The **Local Trader**, a p2p marketplace, is now available from the main screen, making it easier to find it and to access it :)
 
-![](../_posts/img/1__Qo8UrKdO0ALiZmHdzHswrg.png)
+![](/uploads/blog/1__Qo8UrKdO0ALiZmHdzHswrg.png)
 undefined
 
 ### Changelog
