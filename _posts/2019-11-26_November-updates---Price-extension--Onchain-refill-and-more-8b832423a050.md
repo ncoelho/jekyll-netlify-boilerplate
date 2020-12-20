@@ -3,7 +3,7 @@ layout: post
 title: 'November updates — Price extension, Onchain refill and more'
 date: '2019-11-26 19:33:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 We have been busy building, that’s a good way to be busy and we haven’t update the blog in awhile, so here it is, an update on the latest releases 😃

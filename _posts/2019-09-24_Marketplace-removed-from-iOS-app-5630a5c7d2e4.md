@@ -3,7 +3,7 @@ layout: post
 title: Marketplace removed from iOS app
 date: '2019-09-24 09:27:00'
 author: john_doe
-categories: misc
+categories: [news, updates]
 ---
 
 ![](/_posts/img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
