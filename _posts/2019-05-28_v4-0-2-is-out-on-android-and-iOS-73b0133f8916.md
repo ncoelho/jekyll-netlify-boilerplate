@@ -1,10 +1,9 @@
 ---
+layout: post
 title: v4.0.2 is out on android and iOS
-description: update on bluewallet.io
-date: '2019-05-28T09:45:52.627Z'
-categories: []
-keywords: []
-slug: /@nvcoelho/v4-0-2-is-out-on-android-and-ios-73b0133f8916
+date: '2019-05-28 09:45:00'
+author: john_doe
+categories: misc
 ---
 
 update on [bluewallet.io](https://bluewallet.io)

@@ -1,12 +1,9 @@
 ---
+layout: post
 title: A glimpse on the future of Bitcoin UX
-description: >-
-  Hi there, I’m Nuno from Bluewallet, a Bitcoin wallet. I’m a UX and Product
-  Designer. And for the last couple of years Bitcoin has been a…
-date: '2018-10-01T17:15:27.349Z'
-categories: []
-keywords: []
-slug: /@nvcoelho/a-glimpse-on-the-future-of-bitcoin-ux-4129cca9ece6
+date: '2018-10-01 15:27:00'
+author: john_doe
+categories: misc
 ---
 
 Hi there, I’m [Nuno](https://twitter.com/nvcoelho) from [Bluewallet, a Bitcoin wallet](https://bluewallet.io). I’m a UX and Product Designer. And for the last couple of years Bitcoin has been a daily passion, an obsession, and the most exciting thing I’ve come across, since I first connected to the internet.

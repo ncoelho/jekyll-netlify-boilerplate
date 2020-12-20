@@ -1,12 +1,9 @@
 ---
+layout: post
 title: Marketplace removed from iOS app
-description: >-
-  Last week we got a call from an Apple employee. That call was about our
-  “marketplace” feature. Apparently it is not permitted to have 3rd…
-date: '2019-09-24T17:22:43.809Z'
-categories: []
-keywords: []
-slug: /@nvcoelho/marketplace-removed-from-ios-app-5630a5c7d2e4
+date: '2019-09-24 09:27:00'
+author: john_doe
+categories: misc
 ---
 
 ![](/_posts/img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
