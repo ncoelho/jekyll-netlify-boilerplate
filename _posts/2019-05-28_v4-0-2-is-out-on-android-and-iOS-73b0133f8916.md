@@ -22,6 +22,6 @@ FIXED
 
 This release features the removal of the P2SH and SEGWIT references. We know have onchain HD Segwit wallets by default :)
 
-![](/_posts/img/1__HrzbozVIPmRYMJk9gJDCdg.jpeg)
+![](../_posts/img/1__HrzbozVIPmRYMJk9gJDCdg.jpeg)
 
 [bluewallet.io](https://bluewallet.io)

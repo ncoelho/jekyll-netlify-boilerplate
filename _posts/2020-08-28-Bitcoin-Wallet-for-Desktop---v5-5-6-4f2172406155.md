@@ -8,7 +8,7 @@ categories: [news, updates]
 
 BlueWallet for Desktop is out on the mac store 
 
-![](/_posts/img/1__ylHJ4Hf5by83gH6JS5HGFA.png)
+![](../_posts/img/1__ylHJ4Hf5by83gH6JS5HGFA.png)
 undefined
 
 This is the first [Bitcoin-only wallet](https://bluewallet.io) available on the mac store for millions of users. And, a huge effort from the team to bring to the Bitcoin community our first desktop product.
@@ -27,7 +27,7 @@ For now it is only available for macOS, but we expect to increase the compatibil
 
 **Multiple Wallets** Support for different wallet types. Like Bip84/49/44, electrum, legacy, etc.
 
-![](/_posts/img/1__OWQvkS45QPso6l8X8FVIPQ.png)
+![](../_posts/img/1__OWQvkS45QPso6l8X8FVIPQ.png)
 undefined
 
 **Full node** Full node connection through ElectrumX, Electrs or Electrum Personal Server.
@@ -36,7 +36,7 @@ undefined
 
 **Notifications** With push notifications for pending and confirmed transactions.
 
-![](/_posts/img/1__pdu00hpS1hRgjpHcnBfycg.png)
+![](../_posts/img/1__pdu00hpS1hRgjpHcnBfycg.png)
 undefined
 
 And [many other features](https://bluewallet.io/features/) available right from the start.

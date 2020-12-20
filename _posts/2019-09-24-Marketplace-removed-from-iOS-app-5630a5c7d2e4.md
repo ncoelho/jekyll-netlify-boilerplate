@@ -6,8 +6,7 @@ author: john_doe
 categories: [news, updates]
 ---
 
-![](/_posts/img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
-undefined
+![](../_posts/img/1__0AjNYIYaPUiDuS5OVtcS6g.png)
 
 Last week we got a call from an Apple employee. That call was about removing our “marketplace” feature.
 
