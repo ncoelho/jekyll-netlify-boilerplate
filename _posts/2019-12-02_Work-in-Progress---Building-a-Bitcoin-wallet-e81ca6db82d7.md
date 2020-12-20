@@ -1,10 +1,9 @@
 ---
+layout: post
 title: Work in Progress — Building a Bitcoin wallet
-description: "Olá! \U0001F44B"
-date: '2019-12-02T22:08:54.545Z'
-categories: []
-keywords: []
-slug: /@nvcoelho/work-in-progress-building-a-bitcoin-wallet-e81ca6db82d7
+date: '2019-12-02 08:27:00'
+author: john_doe
+categories: misc
 ---
 
 Olá! 👋

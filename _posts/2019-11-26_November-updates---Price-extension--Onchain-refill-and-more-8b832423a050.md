@@ -1,13 +1,9 @@
 ---
+layout: post
 title: 'November updates — Price extension, Onchain refill and more'
-description: >-
-  We have been busy building, that’s a good way to be busy and we haven’t update
-  the blog in awhile, so here it is, an update on the latest…
-date: '2019-11-26T19:29:33.672Z'
-categories: []
-keywords: []
-slug: >-
-  /@nvcoelho/november-updates-price-extension-onchain-refill-and-more-8b832423a050
+date: '2019-11-26 19:33:00'
+author: john_doe
+categories: misc
 ---
 
 We have been busy building, that’s a good way to be busy and we haven’t update the blog in awhile, so here it is, an update on the latest releases 😃

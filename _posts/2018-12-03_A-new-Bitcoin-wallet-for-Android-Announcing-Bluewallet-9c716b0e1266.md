@@ -1,12 +1,9 @@
 ---
+layout: post
 title: A new Bitcoin wallet for Android-Announcing Bluewallet
-description: >-
-  It’s here! It took us a while. But the Android version of Blue Wallet is live
-  on play store. With full featured and more exciting new…
-date: '2018-12-03T18:09:54.123Z'
-categories: []
-keywords: []
-slug: /@nvcoelho/a-new-bitcoin-wallet-for-android-announcing-bluewallet-9c716b0e1266
+date: '2018-12-03 09:27:00'
+author: john_doe
+categories: misc
 ---
 
 It’s here! It took us a while. But the Android version of [Blue Wallet is live on play store](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet). With full featured and more exciting new things ahead.
