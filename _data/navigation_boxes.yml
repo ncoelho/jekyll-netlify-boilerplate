@@ -18,14 +18,14 @@
 - title: Notifications
   desc: With push notifications for pending and confirmed transactions.
   icon: notifications
-  url: /watch-only/
+  url: /features/#notifications
 
 - title: Plausible Deniability
   desc: Create multiple storages or fake ones in case of a forced disclosure.
   icon: pdeniability
-  url: /watch-only/
+  url: /features/#pdeniability
 
 - title: Fees & Transactions control
   desc: Control fees. Easily Bump, Cancel or Batch transactions. With RBF and CPFP.
   icon: fees
-  url: /watch-only/
+  url: /features/#bump
