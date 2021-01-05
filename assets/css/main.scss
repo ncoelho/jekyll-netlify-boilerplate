@@ -123,6 +123,11 @@
 		position: absolute;
 		right: 12px;
 		top: 12px;
+		@media (max-width: 767px) {
+			right: 6px;
+			padding: 0 8px;
+			font-size: 13px;
+		}
 	}
 }
 .socialinks {
