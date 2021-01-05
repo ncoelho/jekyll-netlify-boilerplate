@@ -4,6 +4,9 @@
 
 .merda {
 	height: 598px;
+	 @media (max-width: 767px) {
+	 	margin-bottom: 60px !important;
+	 }
 }
 .uk-navbar {
 	padding: 26px 0;
@@ -14,29 +17,60 @@
 .uk-heading-primary {
 	margin-bottom: 24px;
 }
+.uk-navbar-dropdown {
+	width: 260px !important;
+}
+.uk-navbar-dropdown-nav li {
+	font-size: 1rem;
+	padding: 4px 16px;
+	&:hover {
+		border-radius: 6px;
+		background: #F2F4F7;
+	}
+}
+.uk-nav-divider:hover {
+	background: transparent !important;
+}
+.bounce {
+	transition: all 0.5s ease;
+	&:active {
+		transform: scale(0.97);
+	}
+}
 .poster {
 	width: 300px;
     height: 611px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin: -250px 0 0 -160px;
+    position: relative;
     border-radius: 42px;
-    box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-    flex: auto;
-    align-self: center;
-    justify-content: center;
+   	margin: 0 auto 60px auto;
     padding: 0;
     background-color: #1C1C1D;
+    @media (min-width: 768px) {
+    	width: 300px;
+	    height: 611px;
+	    position: absolute;
+	    top: 40%;
+	    left: 50%;
+	    margin: -250px 0 0 -160px;
+	    border-radius: 42px;
+	    box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+	    overflow: hidden;
+	    flex: auto;
+	    align-self: center;
+	    justify-content: center;
+	    padding: 0;
+	    background-color: #1C1C1D;
+    }
 }
-.poster .shine {
-  position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  z-index: 100;
+@media (min-width: 768px) {
+	.poster .shine {
+	  position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	  z-index: 100;
+	}
 }
 .poster .layer-4 {
 	position: absolute;
@@ -100,7 +134,7 @@
 		color: #637082;
 		display: inline-block;
 		border-radius: 6px;
-		transition: all 0.4s ease;
+		transition: all 0.3s ease;
 		&:hover {
 			background: #F2F4F7;
 			text-decoration: none;

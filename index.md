@@ -11,7 +11,7 @@ hero:
 
 {% include home-hero.html %}
 
-{% include boxes.html columns="3" title="What can it do" subtitle="With all the functionality you would expect from a Bitcoin wallet, plus a lot more..." %}
+{% include boxes.html columns="3" title="What can it do" subtitle="Besides receiving, sending and storing Bitcoin, it can do a lot more..." %}
 
 
 
