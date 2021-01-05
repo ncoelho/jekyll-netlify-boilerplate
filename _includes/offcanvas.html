@@ -24,14 +24,11 @@
                 {% else %}
                     <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" {% endif %}>{{ link.title }}</a></li>
                 {% endif %}
+                
             {% endfor %}
         </ul>
 
-        <div class="uk-margin-top uk-text-center">
-            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
-                {% include social-networks.html %}
-            </div>
-        </div>
+        
 
     </div>
 </div>

@@ -38,13 +38,12 @@
 	}
 }
 .poster {
-	width: 300px;
+	max-width: 300px;
     height: 611px;
     position: relative;
     border-radius: 42px;
    	margin: 0 auto 60px auto;
     padding: 0;
-    background-color: #1C1C1D;
     @media (min-width: 768px) {
     	width: 300px;
 	    height: 611px;
