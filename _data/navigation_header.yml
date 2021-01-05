@@ -10,22 +10,21 @@ right:
       - title: View All
         url: /features/
 
-      - title: Bitcoin wallet
+      - divider: true
+
+      - title: Bitcoin Wallet
         url: /bitcoin-wallet/
 
-      - title: Watch-only wallet
+      - title: Watch-only Wallet
         url: /watch-only/
 
       - title: Multisig Vault
         url: /multisig-wallet/
 
-      - title: Lightning wallet
+      - title: Lightning Wallet
         url: /lightning/
 
-      - title: Desktop app
-        url: /desktop-bitcoin-wallet/
-
-  - title: Docs
+  - title: Support
     url: /docs/intro/
 # Navbar right menu navigation links
 

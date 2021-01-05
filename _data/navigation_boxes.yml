@@ -1,7 +1,7 @@
 # Boxes include navigation
 
 - title: Watch-only Wallets
-  desc: Easily connect to your hardware wallet through watch-only and PSBTs support.
+  desc: Easily connect to your hardware wallet and manage your cold storage.
   icon: watch-only
   url: /watch-only/
 
@@ -16,7 +16,7 @@
   url: /lightning/
 
 - title: Notifications
-  desc: With push notifications for pending and confirmed transactions.
+  desc: Get notified of all transactions you are sending or receiving.
   icon: notifications
   url: /features/#notifications
 
@@ -25,7 +25,7 @@
   icon: pdeniability
   url: /features/#pdeniability
 
-- title: Fees & Transactions control
-  desc: Control fees. Easily Bump, Cancel or Batch transactions. With RBF and CPFP.
+- title: Transactions control
+  desc: Choose your fees when sending. Easily Bump, Cancel or Batch transactions.
   icon: fees
   url: /features/#bump

@@ -121,9 +121,11 @@
                                                             {% assign current = null %}
                                                         {% endif %}
                                                         <li{{ current }}><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
+
                                                     {% else %}
-                                                        <li class="uk-nav-header">{{ child.title }}</li>
+                                                        <li class="uk-nav-divider"></li>
                                                     {% endif %}
+                                                    
                                                     {% endfor %}
                                                 </ul>
                                             </div>
