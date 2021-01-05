@@ -6,5 +6,17 @@
 - title: Features
   url: /features/
 
-- title: Docs
+- title: Bitcoin Wallet
+  url: /bitcoin-wallet/
+
+- title: Watch-only Wallet
+  url: /watch-only/
+
+- title: Multisig Vault
+  url: /multisig-wallet/
+
+- title: Lightning Wallet
+  url: /lightning/
+
+- title: Support
   url: /docs/intro/
