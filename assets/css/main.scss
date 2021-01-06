@@ -92,6 +92,7 @@
 	border: 1px solid #A5B7CA;
 	position: relative;
 	display: block;
+	overflow: hidden;
 	transition: all 0.4s ease;
 	@media (max-width: 767px) {
 		margin-bottom: 32px !important;
