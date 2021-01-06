@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div class="uk-section">
+<div class="uk-section uk-padding-remove">
     <div class="uk-container">
         <div class="uk-grid-large" data-uk-grid>
+
 
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs uk-position-fixed uk-margin-top">
@@ -33,14 +34,14 @@ layout: default
                         {% endif %}
                     {% endif %}
 
-                    <h1 class="uk-article-title uk-margin-remove">{{ page.title | escape }}</h1>
+                    <h1 class="uk-article-title uk-margin-remove-top">{{ page.title | escape }}</h1>
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}
-
+                     <!--
                     <div class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle">
-                        {% include post-meta.html %}
+                        {% include post-meta.html %} 
                     </div>
-
+                    -->
                     <div class="article-content link-primary">
                         {{ content }}
                         {% if site.share.doc %}
@@ -53,9 +54,10 @@ layout: default
                     <hr class="uk-margin-medium">
 
                     {% include paginate-doc.html %}
-
+                    <hr class="uk-margin-medium">
+                    <!-- 
                     {% include related-docs.html %}
-
+                    -->
                     {% if site.disqus.shortname %}
                         {% include disqus_comments.html %}
                     {% endif %}
