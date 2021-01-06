@@ -3,7 +3,7 @@
         <div class="uk-container">
             <div data-uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo uk-visible@m" href="{{ "/" | relative_url }}">
+                    <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">
 
                         <?xml version="1.0" encoding="UTF-8"?>
 <svg width="102px" height="62px" viewBox="0 0 102 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -99,9 +99,7 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="uk-navbar-center uk-hidden@m">
-                    <a class="uk-navbar-item uk-logo" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title | escape }}">{% else %}{{ site.title | escape }}{% endif %}</a>
-                </div>
+
                 <div class="uk-navbar-right">
                     {% if site.navbar.search %}
                         {% unless page.hero%}
