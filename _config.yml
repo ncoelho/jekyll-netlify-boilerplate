@@ -13,11 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Docs
+title: BlueWallet - Bitcoin Wallet for iOS and Android
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml.
+  Bitcoin wallet and Lightning wallet for iOS and Android extremely simple and powerful. Open source, Segwit and HD wallets, lightning network, plausible deniability, replace by fee and full encryption
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -30,7 +29,10 @@ section: true
 netlifycms: true
 
 # set to 'true' to enable Google Analytics tracking code in production builds
-analytics: false
+analytics: true
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics: UA-120614437-1
 
 
 # Compress HTML (in liquid via layouts/compress.html)
@@ -94,36 +96,25 @@ navbar:
   
 # Default author settings
 author:
-    name:           Pete Seth
-    title:          Lead Developer  
-    avatar:         avatar-tom.png
+    name:           Nuno Coelho
+    title:          Product & UX  
+    avatar:         nuno.png
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-    john:
-      name:         John Brown
-      title:        Support     
-      avatar:       avatar-john.png
-    evan:
-      name:         Evan Wells
-      title:        Support    
-      avatar:       avatar-evan.png
-    sara:
-      name:         Sara Galen
-      title:        Lead Developer     
-      avatar:       avatar-sara.png
-    alex:
-      name:         Alex Koch
-      title:        Design Engineer     
-      avatar:       avatar-alex.png
-    daniel:
-      name:         Daniel Shultz
-      title:        Developer      
-      avatar:       avatar-daniel.png
-    tom:
-      name:         Tom Farrell
-      title:        Developer     
-      avatar:       avatar-tom.png
+    nuno:
+      name:         Nuno Coelho
+      title:        Product & UX  
+      avatar:       nuno.png
+    igor:
+      name:         Igor Korsakov
+      title:        Engineering     
+      avatar:       igor.png
+    marcos:
+      name:         Marcos Rodriguez
+      title:        Engineering    
+      avatar:       marcos.png
+    
 
 # Social icons displayed in footer
 social:
@@ -157,8 +148,6 @@ footer:
 disqus:
     shortname:      # 1234
 
-# Google analytics code, get your code here https://www.google.com/analytics/
-google_analytics:
 
 # Number of posts displayed on blog page
 paginate:           10
