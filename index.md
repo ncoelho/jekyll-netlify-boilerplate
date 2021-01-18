@@ -11,7 +11,7 @@ hero:
 
 {% include home-hero.html %}
 
-{% include boxes.html columns="3" title="What can it do" subtitle="Besides receiving, sending and storing Bitcoin, it can do a lot more..." %}
+{% include boxes.html columns="3" title="What you can do with BlueWallet" subtitle="Besides receiving, sending and storing Bitcoin, you can do a lot more..." %}
 
 
 
