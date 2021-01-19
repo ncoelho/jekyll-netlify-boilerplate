@@ -15,22 +15,22 @@ Besides Bitcoin Wallets, Watch-only, Multisig Vaults and Lightning. Blue can imp
          </div>
          <div>
             <div class="uk-card features uk-text-center">
-               <video loop autoplay controls="false" playsinline preload="auto" muted alt="multi bitcoin wallets">
+               <video loop autoplay poster playsinline preload="auto" muted alt="multi bitcoin wallets">
                   <source src="{{ site.uploads | absolute_url }}/features/multi-wallet.mp4" type="video/mp4">
                </video>
              </div>
          </div>
 
       </div>
-      <div class="uk-child-width-1-2@m uk-grid-match uk-margin-xlarge" data-uk-grid>
-         <div>
+      <div class="uk-child-width-1-2@m uk-grid-match uk-margin-xlarge flex" data-uk-grid>
+         <div class="second-mobile">
              <div class="uk-card features uk-text-center">
-               <video loop autoplay controls="false" playsinline preload="auto" muted alt="watch-only wallet">
+               <video loop autoplay poster playsinline preload="auto" muted alt="watch-only wallet">
                   <source src="{{ site.uploads | absolute_url }}/features/watch-only.mp4" type="video/mp4">
                </video>
              </div>
          </div>
-         <div>
+         <div class="first-mobile">
             <div class="uk-card">
                <h2 class="uk-h2 uk-margin">Watch-only</h2>
                <p class="uk-text-lead">Watch-only wallets allows you to keep an eye on your cold storage or paper wallet without touching your private key. Easily import your public address, xpub or ypub and watch it from your app without moving anything.</p>
@@ -49,7 +49,7 @@ Recommended for cold storage and large amounts.</p>
          </div>
          <div>
             <div class="uk-card features uk-text-center">
-               <video loop autoplay controls="false" playsinline preload="auto" muted alt="multisig wallet">
+               <video loop autoplay poster playsinline preload="auto" muted alt="multisig wallet">
                   <source src="{{ site.uploads | absolute_url }}/features/multisig.mp4" type="video/mp4">
                </video>
              </div>
@@ -58,226 +58,145 @@ Recommended for cold storage and large amounts.</p>
    </div>
 </div>
 
-<div class="uk-section">
-  <div class="uk-container{{container}}">
-      <!-- Security and Privacy -->
-      <h2 class="uk-h2 uk-text-primary">Security and Privacy</h2>
-        <div class="uk-child-width-1-3@m uk-text-center uk-margin-medium-top uk-grid-small" uk-grid="masonry: true">
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Multisig Vaults <span class="uk-label">new</span></h3>
-                    <p>The most secure Bitcoin technology. Multisig works like vault, where multiple keys are needed to spend Bitcoin. Recommended for cold storage and large amounts.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Payjoin <span class="uk-label">new</span></h3>
-                    <p>Payjoin or Pay-to-endpoint, it's a feature that allows to break common chain analysis heuristics, where to participants build a transaction together.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Plug-in your Bitcoin node</h3>
-                    <p>Ability to plug-in your own Bitcoin Full node through Electrum Personal Server (EPS), ElectrumX or Electrs. Don't trust, verify for a maximum sovereignty.</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Local Trader</h3>
-                    <p>Local Trader is a p2p trading marketplace. It allows you to buy Bitcoin on a non-custodial P2P exchange via escrow, without KYC from the comfort of your mobile phone.</p>
-                </div>
-            </div>
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Offline mode <span class="uk-label">new</span></h3>
-                    <p>In case you don't have internet connection, BlueWallet will allow you to generate wallets or addresses to be able to receive offline.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Watch-only wallets</h3>
-                    <p>Watch-only wallets allow you to keep an eye on your cold storage without touching your private key. Easily import your address or xpub and watch it from your app without ever touching it.</p>
-                </div>
-            </div>
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Custom entropy <span class="uk-label">new</span></h3>
-                    <p>Ability to manually generate entropy for wallet creation with Coins and Dices. This is an advanced feature, use with caution.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Coldcard support</h3>
-                    <p>Connect to your Coldcard wallet with ease. Support for PSBT and Watch-only wallets. Allows for receiving and sending transactions by signing them offline.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Cobo Vault support</h3>
-                    <p>Support for Cobo Vault hardware wallet. With one of the first of its kind Air-gapped, PSBT with animated QR codes support.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Hardware Wallets</h3>
-                    <p>Ability to connect and work with Hardware Wallets that support PSBT. After importing your wallet on watch-only mode, go to the wallet options and turn on "hardware wallet" mode.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">PSBT</h3>
-                    <p>Support for PSBT - Partially Signed Bitcoin Transactions, BIP 174. Under the hood transactions on BlueWallet are using and constructed by the PSBT standard.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Broadcast Transaction</h3>
-                    <p>Ability to broadcast a transaction that was previsously signed on BlueWallet or elsewhere.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Multiple Storage</h3>
-                    <p>Besides having one storage for all your wallets, you can have multiple encrypted storages, that can be accessed by different passwords. This is useful in case you don't want to have all your wallets in the same storage, or you have other family members or employees accessing or using the app.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Open Source</h3>
-                    <p>BlueWallet is built on a public repo, up-to-date and available on the BlueWallet GitHub. This means that any user can build it and run it on his own, without any custodial dependencies. Verify the code and contribute to the wallet development. BlueWallet is made with ReactNative and Distributed under a MIT licensed.</p>
-                </div>
-            </div>
-            <div>
-               <div id="pdeniability" class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Plausible deniability</h3>
-                    <p>A custom made feature thinking about your personal security. BlueWallet allows you to define a different password which will decrypt a fake wallet set up. for any situation where you are forced to disclose your access or for when you don't want or can't show your real wallet.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Full encryption</h3>
-                    <p>On top of the phone multi-layer encryption, blue wallet can encrypt everything with an added password. Biometric security (touch ID, Face ID) is not safe, so you will have an additional password to encrypt your wallet instead.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">HD wallets</h3>
-                    <p>The Hierarchical Deterministic (HD) key creation and transfer protocol (BIP32), allows creating child keys from parent keys in a hierarchy. The HD Wallets will generate for you a different address for each transactions.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Be in control</h3>
-                    <p>On your Bitcoin wallet your Private keys (Seed) never leave your device. You can at any moment generate backups and export/import your wallets, with full control of what to do with your private keys.</p>
-                </div>
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
+
+<div class="uk-section-large">
+   <div class="uk-container{{container}}">
+      <div class="uk-child-width-1-2@m uk-grid-match uk-margin-medium-top" data-uk-grid>
+         <div>
+            <div class="uk-card">
+               <div class="features uk-text-center">
+                  <img src="{{ site.uploads | absolute_url }}/features/lightning.png" alt="lightning wallet">
+               </div>
+               <h2 class="uk-h3 uk-margin">Lightning Wallets</h2>
+               <p class="uk-text-meta">with zero configuration. You can use our hosted Lightning wallets or connect to your own node. Allows you to seamlessly use the Lightning Network, without the need to open channels, be online or operate and mantain a node.</p>
             </div>
          </div>
-       <!-- User Experience -->
-      <h2 class="uk-h2 uk-text-primary">User Experience</h2>
-        <div class="uk-child-width-1-3@m uk-text-center uk-margin-medium-top uk-grid-small" uk-grid="masonry: true">
-             <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Flexible fees</h3>
-                    <p>BlueWallet will provide you a fee estimation targeting confirmations in 10m, 3h or 1 day. With real time amount calculation on how much to spend. You can also just add your custom value with total flexibility.</p>
-                </div>
+        <div>
+            <div class="uk-card">
+               <div class="features uk-text-center">
+                  <img src="{{ site.uploads | absolute_url }}/features/fees.png" alt="fee estimation">
+               </div>
+               <h2 class="uk-h3 uk-margin">Fee & Transactions control</h2>
+               <p class="uk-text-meta">Provides you a fee estimation targeting confirmations in 10m, 3h or 1 day. With real time calculation on how much to spend. Ability to Bump and Cancel sent transactions with "Replace-by-fee" (RBF) or with "Child-pays-for-parent" (CPFP).</p>
             </div>
-            <div>
-                <div id="notifications" class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Notifications <span class="uk-label">new</span></h3>
-                    <p>We have developed Ground Control. A push notification service for bitcoin wallets that allows you to have mobile and desktop push notifications or to run your own push notification server.</p>
-                </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
+
+<div class="uk-section">
+   <div class="uk-container{{container}}">
+      <div class="uk-grid-match uk-margin-medium-top" data-uk-grid>
+         <div class="uk-width-1-5@m"></div>
+         <div class="uk-width-expand@m">
+            <div class="uk-card uk-text-center">
+              
+               <h2 class="uk-h2 uk-margin">Plausible deniability</h2>
+               <p class="uk-text-lead">A feature thinking about your personal security. BlueWallet allows you to define a different password which will decrypt a "fake" wallet set up. For any situation where you are forced to disclose your access or for when you don't wantto show your real wallet.</p>
+                <div class="features uk-inline uk-text-center uk-margin-large">
+                  <img class="special" src="{{ site.uploads | absolute_url }}/features/pb.png" alt="lightning wallet">
+               </div>
             </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Batch Transactions</h3>
-                    <p>This feature allows you to send multiple transactions in one batch. This is useful if you have two or more transactions that you want to make and want to spend less fees on. All your transactions will be batched in a single transaction fee, making it less expensive for you. This also means it will take up less space on the block chain. So a win-win for the bitcoin network and for the users.</p>
-                </div>
+         </div>
+         <div class="uk-width-1-5@m"></div>
+      </div>
+   </div>
+</div>
+
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
+
+
+<div class="uk-section">
+   <div class="uk-container{{container}}">
+      <div class="uk-child-width-1-3@m uk-grid-match uk-margin-medium-top" data-uk-grid>
+         <div>
+            <div class="uk-card">
+               <div class="features uk-text-center">
+                  <img src="{{ site.uploads | absolute_url }}/features/notifications.png" alt="lightning wallet">
+               </div>
+               <h2 class="uk-h3 uk-margin">Notifications</h2>
+               <p class="uk-text-meta">We have developed Ground Control. A push notification service for bitcoin wallets that allows you to have mobile and desktop push notifications or to run your own push notification server.</p>
             </div>
-            
-            <div>
-               <div id="bump" class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Bump and Cancel transactions</h3>
-                    <p>Ability to Bump and Cancel sent transactions with "Replace-by-fee" (RBF). Ability to Bump received transactions with "Child-pays-for-parent" (CPFP) on Native Segwit wallets (bech32/BIP84).</p>
-                </div>
+         </div>
+         <div>
+            <div class="uk-card">
+               <div class="features uk-text-center">
+                  <img src="{{ site.uploads | absolute_url }}/features/recover.png" alt="fee estimation">
+               </div>
+               <h2 class="uk-h3 uk-margin">Recover wallets</h2>
+               <p class="uk-text-meta">A “magical form” where you can try to import whatever you got. It will do its best to understand the format and import your wallet into your BlueWallet app.</p>
             </div>
-             <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Magical import/recover wallets</h3>
-                    <p>BlueWallet provides a “magical form” where you can try to import whatever you got. It will do its best to understand the format and import your wallet into your BlueWallet app. Here is where your watch-only, electrum, bread, legacy formats and external services can be imported to your app.</p>
-                </div>
+         </div>
+          <div>
+            <div class="uk-card">
+               <div class="features uk-text-center">
+                  <img src="{{ site.uploads | absolute_url }}/features/batch.png" alt="fee estimation">
+               </div>
+               <h2 class="uk-h3 uk-margin">Batch Transactions</h2>
+               <p class="uk-text-meta">Send multiple transactions in one batch. This is useful if you more than one transaction and you want to spend less fees. All your transactions will be batched in a single transaction fee, making it less expensive.</p>
             </div>
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">SegWit</h3>
-                    <p>SegWit supported in P2SH-compatibility mode and bech32 Native mode. Segwit was a massive upgrade to the Bitcoin Protocol released in 2017. You will find all wallets with SegWit enabled by default. Find more about SegWit here.</p>
-                </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
+
+
+<div class="uk-section-large">
+  <div class="uk-container{{container}}">
+      <div class="uk-margin-xlarge">
+         <h2 class="uk-h1 uk-text-center">Plus so much more</h2>
+      </div>
+        <div class="uk-child-width-1-3@m uk-text-center uk-margin-medium-top uk-grid-small" uk-grid>
+         {% for item in site.data.all_features %}
+       
+            <div class="uk-margin-bottom">
+               <div class="uk-card uk-text-left">
+                  {% if item.title %}
+                  <h4 class="uk-h4 uk-margin">{{ item.title }}</h4>
+                  {% endif %}
+                  {% if item.desc %}
+                  <p class="uk-text-meta">{{ item.desc }}</p>
+                  {% endif %}
+               </div>
             </div>
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Multiple wallets support</h3>
-                    <p>BlueWallet aims to support the highest wallet standards. Currently supported: BIP44 (HD), BIP49 (HD SegWit), BIP84 (HD bech32, native SegWit), BIP39 Breadwallet-compatible (m/0'/0/0), Legacy single-address, SegWit single-address (P2SH). You can have many wallets in a single app at the same time.</p>
-                </div>
-            </div>
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Export TXHEX</h3>
-                    <p>You can get your transaction HEX (TXHEX) without broadcasting it, and only do it with the relay of your choice.</p>
-                </div>
-            </div>
-           
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Dark mode <span class="uk-label">new</span></h3>
-                    <p>BlueWallet is now available in Dark mode for iOS and android.</p>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">LNurl</h3>
-                    <p>Support for the LNurl protocol with LNurl-pay and LNurl-withdraw. This features allows you to have an easier interaction with the Lightning Network and services that support LNurl.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Marketplace</h3>
-                    <p>Access and explore Lightning ready services, and start participating in the new layer for payments. </p>
-                </div>
-            </div>
-            
-            
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Lightning Browser</h3>
-                    <p>A Lightning browser supporting the webLN standard to help you use and discover new services.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Lightning Wallets</h3>
-                    <p>Wallets with support for the Lightning Network Protocol. Unfairly cheap and fast transactions. You can send, receive and refill your wallets.</p>
-                </div>
-            </div>
-            
-           
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Multi-language</h3>
-                    <p>BlueWallet supports more than 30 languages, including Chinese, Japanese, Portuguese, Spanish, Indonesian, Russian, Ukranian, Italian, German, Swedish, Norwegian, French, Danish, Turkish, and more.</p>
-                </div>
-            </div>
-            <div>
-               <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-medium border-light">
-                    <h3 class="uk-card-title uk-margin">Multi-currency</h3>
-                    <p>BlueWallet supports more than 30 currencies, including USD, AUD, BRL, CAD, CHF, CZK, CNY, EUR, GDP, HRK, INR, JPY, MXN, MYR, RUB, and more.</p>
-                </div>
-            </div>
+         {% endfor %}
         </div>
    </div>
 </div>
 
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
 
+<div class="uk-section">
+   <div class="uk-container{{container}}">
+      <div class="uk-grid-match uk-margin-medium-top" data-uk-grid>
+         <div class="uk-width-1-5@m"></div>
+         <div class="uk-width-expand@m">
+            <div class="uk-card uk-text-center">
+              
+               <h2 class="uk-h2 uk-margin">Multi-language</h2>
+               <p class="uk-text-lead">BlueWallet supports more than 30 languages, including Chinese, Japanese, Portuguese, Spanish, Indonesian, Russian, Ukranian, Italian, German, Swedish, Norwegian, French, Danish, Turkish, and more.</p>
+                <a class="uk-button uk-button-primary uk-button-large uk-margin-large uk-text-bold" href="https://www.transifex.com/bluewallet/bluewallet/" target="_blank">Join the translation community</a>
+            </div>
+         </div>
+         <div class="uk-width-1-5@m"></div>
+      </div>
+   </div>
+</div>
+<div class="uk-container{{container}}">
+   <hr class="uk-margin-large">
+</div>
