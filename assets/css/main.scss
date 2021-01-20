@@ -36,6 +36,9 @@
 	&:active {
 		transform: scale(0.97);
 	}
+	@media (max-width: 767px) {
+		max-width: 200px;
+	}
 }
 .poster {
 	max-width: 300px;
@@ -176,9 +179,11 @@
 	box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
 	img {
 		max-width: 350px;
+		width: 100%;
 	}
 	.special {
 		max-width: 490px;
+		width: 100%;
 	}
 }
 .flex {
