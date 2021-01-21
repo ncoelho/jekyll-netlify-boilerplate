@@ -2,7 +2,7 @@
 layout: post
 title: November updates — Price extension, Onchain refill and more
 date: 2019-11-26 19:33:00
-author: john_doe
+author: nuno
 categories: [news, updates]
 ---
 
