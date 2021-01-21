@@ -2,7 +2,8 @@
 layout: post
 title: v5.5.0 — Buy Bitcoin without KYC, Cobo Vault support
 date: 2020-07-13 18:31:12
-categories: updates
+author: nuno
+categories: [news, updates]
 ---
 Our last update was in May, and ho boy! We have been busy. On the latest versions a lot of improvements were introduced, most notable the option to Buy Bitcoin from the Local Trader, a p2p marketplace. And, Cobo Vault support, with QR codes, air-gapped PSBTs, one of the first of its kind. Let’s take a closer look on the latest developments and updates. There’s a lot to tell :)
 
@@ -12,15 +13,16 @@ Introduced on the version 5.4.4, PSBTs (partially signed bitcoin transactions) w
 
 A nice contribution and collaboration with the [Cobo Vault team](https://cobo.com/hardware-wallet). Thank you!
 
-[Air-gapped offline transaction with BlueWallet and Cobo Vault](https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F0qndGQL1p7o%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D0qndGQL1p7o&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F0qndGQL1p7o%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube)
+<div class="videoWrapper">
+	<iframe src="https://www.youtube.com/embed/0qndGQL1p7o?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+</div>
+
 
 ## Buy Bitcoin on Local Trader
 
 v5.4.3 features the ability to buy on the “Local Trader”. A p2p marketplace where you control your funds. You can now login (w/[@hodlhodl](https://hodlhodl.com/)), view offers, view contracts and accept offers. More info on the [Local Trader](https://bluewallet.io/local-trader/)
 
-![Image for post](https://miro.medium.com/max/60/1*p9jWuLeYrjaAk72lj8_0_A.png?q=20)
-
-![Image for post](https://miro.medium.com/max/3840/1*p9jWuLeYrjaAk72lj8_0_A.png)
+![](/uploads/blog/1_p9jWuLeYrjaAk72lj8_0_A.png)
 
 ## Input local currency
 

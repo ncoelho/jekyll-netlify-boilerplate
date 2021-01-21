@@ -2,7 +2,8 @@
 layout: post
 title: v5.0.0 — Coldcard wallet support
 date: 2020-03-02 18:28:04
-categories: updates
+author: nuno
+categories: [news, updates]
 ---
 
 
@@ -19,15 +20,16 @@ I’m super excited for this one. It is a massive effort, and the result of many
 * FIX: Watch-only delete wallet doesn’t have confirmation now
 * FIX: Typo in spanish
 
-![Image for post](https://miro.medium.com/max/60/1*qimXeoqtnjceQQtxpyrSgA.png?q=20)
 
-![Image for post](https://miro.medium.com/max/3840/1*qimXeoqtnjceQQtxpyrSgA.png)
+![](/uploads/blog/1_qimXeoqtnjceQQtxpyrSgA.png)
 
 # How to use Coldcard with Bluewallet
 
 Let’s have a look on how to use PSBT, watch-only wallets. And how to send transactions offline with your Coldcard and Bluewallet.
 
-[How to use Coldcard with Bluewallet](https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FhF2MyDB0nno%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhF2MyDB0nno&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhF2MyDB0nno%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube)
+<div class="videoWrapper">
+	<iframe src="https://www.youtube.com/embed/hF2MyDB0nno?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+</div>
 
 Bluewallet Bitcoin wallet + Coldcard Coldstorage
 

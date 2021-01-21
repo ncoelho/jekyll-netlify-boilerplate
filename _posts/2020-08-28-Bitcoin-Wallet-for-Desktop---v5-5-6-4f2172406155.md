@@ -2,10 +2,8 @@
 layout: post
 title: Bitcoin Wallet for Desktop - v5.5.6
 date: 2020-08-28 08:52:00
-author: john_doe
-categories:
-  - news
-  - updates
+author: nuno
+categories: [news, updates]
 ---
 
 
@@ -30,7 +28,7 @@ For now it is only available for macOS, but we expect to increase the compatibil
 **Multiple Wallets** Support for different wallet types. Like Bip84/49/44, electrum, legacy, etc.
 
 ![](/uploads/blog/1__OWQvkS45QPso6l8X8FVIPQ.png)
-undefined
+
 
 **Full node** Full node connection through ElectrumX, Electrs or Electrum Personal Server.
 
@@ -39,7 +37,7 @@ undefined
 **Notifications** With push notifications for pending and confirmed transactions.
 
 ![](/uploads/blog/1__pdu00hpS1hRgjpHcnBfycg.png)
-undefined
+
 
 And [many other features](https://bluewallet.io/features/) available right from the start.
 
