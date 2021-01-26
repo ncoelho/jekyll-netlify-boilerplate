@@ -47,13 +47,6 @@ kramdown:
 plugins:
   - 'jekyll-seo-tag'
   - 'jekyll-paginate'
-  - 'jekyll-github-metadata'
-  - 'jekyll-get-json'
-
-jekyll_get_json:
-  - data: team
-    json: 'https://api.github.com/repos/bluewallet/bluewallet/contributors'
-
 
 
 # Include in processing (e.g. Netlify directives)
@@ -142,7 +135,7 @@ share:
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+    copyright:      Made somewhere on the planet earth.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
