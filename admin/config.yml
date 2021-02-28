@@ -23,10 +23,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Description", name: "description", widget: "text", required: yes}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Categories", name: "Categories", minimize_collapsed: true, widget: "list",
+      - label: "Categories", name: "Categories", minimize_collapsed: true, widget: "list",
       fields:
         - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-        - {label: Author, name: author, widget: string }}
+        - {label: Author, name: author, widget: string }
     # PAGES
   - name: "page"
     label: "Page"
