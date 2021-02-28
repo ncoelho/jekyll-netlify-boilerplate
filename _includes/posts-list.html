@@ -4,7 +4,7 @@
 
 	    {% for post in site.posts limit: 20 %}
 
-        <div class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
+        <article class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
         	{% if post.external_url != null %}
         	<a class="uk-position-cover" href="{{ post.external_url }}" target="_blank"></a>
         	{% else %}
@@ -41,16 +41,9 @@
                 </time>
             </p> 
 
-        </div>
+        </article>
         {% endfor %}
-        <script>
-$('.container').infiniteScroll({
-  // options
-  path: '.pagination__next',
-  append: '.post',
-  history: false,
-});
-</script>
+   
 		<a class="pagination__next" href="{{ site.baseurl }}blog/2/">load more</a>
 
     </div>

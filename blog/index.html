@@ -6,7 +6,7 @@ title: Blog
 <div class="uk-section">
     <div class="uk-container uk-container-small container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
         {% for post in paginator.posts %}
-        <div class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
+        <article class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
             {% if post.external_url != null %}
             <a class="uk-position-cover" href="{{ post.external_url }}" target="_blank"></a>
             {% else %}
@@ -43,7 +43,7 @@ title: Blog
                 </time>
             </p> 
 
-        </div>
+        </article>
         {% endfor %}
 
         {% include paginate-blog.html %}
