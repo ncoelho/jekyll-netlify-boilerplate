@@ -1,31 +1,33 @@
 # Navbar left menu navigation links
 
 right:
-  - title: Home
-    url: /
+#  - title: Home
+#    url: /
 
-  - title: Features
-    dropdown:
+# - title: Features
+#    dropdown:
+#
+#     - title: View All
+#        url: /features/
+#
+#     - divider: true
+#
+#      - title: Bitcoin Wallet
+#        url: /bitcoin-wallet/
+#
+#      - title: Watch-only Wallet
+#        url: /watch-only/
+#
+#      - title: Multisig Vault
+#        url: /multisig-wallet/
+#
+#      - title: Lightning Wallet
+#        url: /lightning/
+#
+  - title: add signal
+    url: /changelog-timeline/
+    button: primary
 
-      - title: View All
-        url: /features/
-
-      - divider: true
-
-      - title: Bitcoin Wallet
-        url: /bitcoin-wallet/
-
-      - title: Watch-only Wallet
-        url: /watch-only/
-
-      - title: Multisig Vault
-        url: /multisig-wallet/
-
-      - title: Lightning Wallet
-        url: /lightning/
-
-  - title: Support
-    url: /docs/intro/
 # Navbar right menu navigation links
 
 # right:
