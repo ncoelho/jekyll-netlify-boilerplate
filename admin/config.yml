@@ -19,11 +19,11 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Option list", name: "option-list", widget: "select", options: [{label: 'Article', value: article},{label: 'Tutorial', value: tutorial},{label: 'Software', value: software},{label: 'Podcast', value: podcast}]}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Option list", name: "option-list", widget: "select", options: [{label: 'Web Development', value: webdev}]}
     # PAGES
   - name: "page"
     label: "Page"
