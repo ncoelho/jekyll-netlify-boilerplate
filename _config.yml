@@ -143,7 +143,7 @@ disqus:
 
 
 # Number of posts displayed on blog page
-paginate:           10
+paginate:           20
 
 # Blog path
 paginate_path:      "/blog/:num/"

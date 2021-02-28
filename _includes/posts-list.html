@@ -1,15 +1,13 @@
----
-layout: default
-title: Blog
----
-
 <div class="uk-section">
     <div class="uk-container uk-container-small container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
-        {% for post in paginator.posts %}
+
+
+	    {% for post in site.posts limit: 20 %}
+
         <div class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
-            {% if post.external_url != null %}
-            <a class="uk-position-cover" href="{{ post.external_url }}" target="_blank"></a>
-            {% else %}
+        	{% if post.external_url != null %}
+        	<a class="uk-position-cover" href="{{ post.external_url }}" target="_blank"></a>
+        	{% else %}
             <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>
              {% endif %}
             <div class="uk-card-title">
@@ -24,8 +22,8 @@ title: Blog
                 
             </div>
             <p class="uk-text-meta uk-margin-remove-top">
-                {% if post.categories.size > 0 %}
-                    {% if post.categories contains "software" %}
+            	{% if post.categories.size > 0 %}
+            		{% if post.categories contains "software" %}
                         {% assign current = ' uk-label-success ' %}
                     {% elsif post.categories contains "podcast" %}
                         {% assign current = ' uk-label-warning ' %}
@@ -34,19 +32,26 @@ title: Blog
                     {% else %}
                         {% assign current = ' ' %}
                     {% endif %}
-                    <span class="uk-label uk-inline {{ current }}">{{ post.categories | sort | join: ", " }}</span>
+            		<span class="uk-label uk-inline {{ current }}">{{ post.categories | sort | join: ", " }}</span>
 
-                {% endif %}
-                <time class="uk-inline" datetime="{{ post.date | date_to_xmlschema }}">
-                    {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
+            	{% endif %}
+            	<time class="uk-inline" datetime="{{ post.date | date_to_xmlschema }}">
+            		{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
                     {{ post.date | date: date_format }}
                 </time>
             </p> 
 
         </div>
         {% endfor %}
-
-        {% include paginate-blog.html %}
+        <script>
+$('.container').infiniteScroll({
+  // options
+  path: '.pagination__next',
+  append: '.post',
+  history: false,
+});
+</script>
+		<a class="pagination__next" href="{{ site.baseurl }}blog/2/">load more</a>
 
     </div>
 </div>
