@@ -1,10 +1,9 @@
 <div class="uk-section">
-    <div class="uk-container uk-container-small container" data-infinite-scroll='{ "path": ".pagination__next", "append": ".post", "history": false }'>
-
+    <div class="uk-container uk-container-small container">
 
 	    {% for post in site.posts limit: 20 %}
 
-        <article class="item uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
+        <article class="post uk-card uk-card-default uk-card-small uk-card-body uk-box-shadow-small uk-box-shadow-hover-medium uk-inline border-radius-medium border-xlight uk-width-1-1 uk-margin-small">
         	{% if post.external_url != null %}
         	<a class="uk-position-cover" href="{{ post.external_url }}" target="_blank"></a>
         	{% else %}
@@ -44,7 +43,8 @@
         </article>
         {% endfor %}
    
-		<a class="pagination__next" href="{{ site.baseurl }}blog/2/">load more</a>
+		
 
     </div>
 </div>
+<a class="pagination__next infinite-spinner" href="{{ site.baseurl }}blog/2/"></a>
