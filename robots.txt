@@ -1,8 +1,6 @@
 User-Agent: *
 Allow: /
 
-Sitemap: https://bluewallet.io/sitemap.xml
-
 User-agent: googlebot
 Disallow: /tos/
 Disallow: /privacy/

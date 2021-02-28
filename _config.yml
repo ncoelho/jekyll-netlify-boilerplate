@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BlueWallet - Bitcoin Wallet for iOS and Android
+title: utxo.fyi - Bitcoin Signal
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Bitcoin wallet and Lightning wallet for iOS and Android extremely simple and powerful. Open source, Segwit and HD wallets, lightning network, plausible deniability, replace by fee and full encryption
+description: Bitcoin Signal, software updates, content, tutorials, podcasts. A Bitcoin Homepage.
+
 baseurl: "" # the subpath of your site if applicable, e.g. /blog
-url: "https://jekyll-netlify-boilerplate.netlify.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://hungry-lamarr-82322c.netlify.app/" # the base hostname & protocol for your site, e.g. https://example.com
 
 
 # Enable section IDs in frontmatter, useful for identifying current page
@@ -32,7 +32,7 @@ netlifycms: true
 analytics: true
 
 # Google analytics code, get your code here https://www.google.com/analytics/
-google_analytics: UA-120614437-1
+google_analytics: 
 
 
 # Compress HTML (in liquid via layouts/compress.html)
@@ -71,17 +71,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Site subpath, e.g. /blog
-baseurl:            ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title/
-
-# Site base hostname & protocol, e.g. http://example.com
-url:                "https://ncoelho.github.io/jekyll-netlify-boilerplate/"
-
-# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
-logo: logo-bluewallet.svg              
+permalink:          /:title/          
 
 navbar:
     sticky:         false
@@ -92,39 +84,7 @@ author:
     name:           Nuno Coelho
     title:          Product & UX  
     avatar:         nuno.png
-
-# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
-authors:
-    nuno:
-      name:         Nuno Coelho
-      title:        Product & UX  
-      avatar:       nuno.png
-    igor:
-      name:         Igor Korsakov
-      title:        Engineering     
-      avatar:       igor.png
-    marcos:
-      name:         Marcos Rodriguez
-      title:        Engineering    
-      avatar:       marcos.png
     
-
-# Social icons displayed in footer
-social:
-    email:
-    website:
-    facebook:       
-    flickr:
-    dribbble:
-    github:          https://github.com/bluewallet/bluewallet
-    googleplus:
-    instagram:      
-    linkedin:
-    pinterest:
-    twitter:         https://twitter.com/@bluewalletio
-    vimeo:          
-    youtube:
-    telegram:        https://t.me/bluewallet
 
 # Share button
 share:
