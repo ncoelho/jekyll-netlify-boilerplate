@@ -229,6 +229,19 @@
 .reasons {
 	background: #F3F3F3;
 }
+.important li  {
+	margin: 0 !important;
+}
+.important li a {
+	padding: 6px 6px;
+	border-radius: 4px;
+	margin: 0;
+}
+.important li:hover a {
+	text-decoration: none;
+	background: rgba(0, 0, 0, .05);
+	border-radius: 4px;
+}
 .uk-badge {
 	border-radius: 500px;
 	background:  #0070FF;
