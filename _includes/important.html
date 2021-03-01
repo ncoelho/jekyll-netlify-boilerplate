@@ -5,11 +5,11 @@
             <ul class="uk-list">
             {% for post in site.posts %}
                 {% if post.important == true %}
-                <li>
+                <li class="uk-display-block">
                 	{% if post.external_url != null %}
-                	<a class="uk-text-bold" href="{{ post.external_url }}" target="_blank">
+                	<a class="uk-text-bold uk-display-block" href="{{ post.external_url }}" target="_blank">
                 	{% else %}
-                    <a class="uk-text-bold" href="{{ post.url | relative_url }}">
+                    <a class="uk-text-bold uk-display-block" href="{{ post.url | relative_url }}">
                     {% endif %}
                 
                     {{ post.title }}
