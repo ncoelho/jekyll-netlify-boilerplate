@@ -2,7 +2,8 @@
 # https://www.netlifycms.org/docs/configuration-options/
 
 backend:
-  name: git-gateway # Netlify’s Git Gateway connects to Git provider’s API
+  name: github # Netlify’s Git Gateway connects to Git provider’s API
+  repo: ncoelho/jekyll-netlify-boilerplate
   branch: master # Branch to update (master by default)
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
