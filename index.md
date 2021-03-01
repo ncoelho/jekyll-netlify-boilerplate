@@ -5,6 +5,8 @@ description: Bitcoin Signal, software updates, content, tutorials, podcasts. A B
 width: expand
 ---
 
+{% include important.html %}
+
 
 {% include posts-list.html %}
 

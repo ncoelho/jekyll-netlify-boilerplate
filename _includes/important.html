@@ -1,0 +1,24 @@
+<div class="uk-section-xsmall">
+    <div class="uk-container uk-container-small">
+        <div class="uk-width-1-1 uk-card uk-card-small uk-card-body reasons border-radius-medium">
+            <h4 class="uk-h4">🔥 Important</h4>
+            <ul class="uk-list">
+            {% for post in site.posts %}
+                {% if post.important == true %}
+                <li>
+                	{% if post.external_url != null %}
+                	<a class="uk-text-bold" href="{{ post.external_url }}" target="_blank">
+                	{% else %}
+                    <a class="uk-text-bold" href="{{ post.url | relative_url }}">
+                    {% endif %}
+                
+                    {{ post.title }}
+                   
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>	
+    </div>
+</div>

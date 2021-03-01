@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Link", name: "external_url", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Important", name: "important", widget: "boolean"}
+      - {label: "Important", name: "important", widget: "boolean", required: false}
 
   # PAGES
   - name: "page"
