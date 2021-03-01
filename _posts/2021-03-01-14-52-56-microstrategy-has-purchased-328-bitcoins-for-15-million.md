@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-03-01 14:52:56
+date: 2021-03-01 13:52:56
 categories: article
 title: MicroStrategy has purchased 328 bitcoins for $15 million
 description: They now hold 90,859 bitcoins acquired for ~$2.186 billion at an
