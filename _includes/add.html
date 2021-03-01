@@ -1,0 +1,62 @@
+<form name="addSignal" data-netlify="true">
+  <p>
+    <label>Title <input type="text" name="title" required /></label>   
+  </p>
+  <p>
+    <label>Description <input type="text" name="description" required /></label>
+  </p>
+  <p>
+    <label>Category <select name="category[]" required>
+      <option value="article">article</option>
+      <option value="tutorial">tutorial</option>
+      <option value="software">software</option>
+      <option value="podcast">podcast</option>
+      <option value="bip/pr">bip/pr</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Link <input type="text" name="external_url" /></label>
+  </p>
+  <p>
+    <label>Content <textarea name="body"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+<div class="result post-sent">
+  <h3>Success!</h3>
+</div>
+<div class="result post-error">
+  <h3>Error...</h3>
+</div>
+<script type="text/javascript">
+function sendFormData() {
+
+  function sendData() {
+    var XHR = new XMLHttpRequest()
+    var FD = new FormData(form)
+    XHR.addEventListener('load', function(event) {
+      form.classList.add('inactive')
+      var success = document.querySelectorAll('.post-sent')[0]
+      success.classList.add('active')
+    })
+    XHR.addEventListener('error', function(event) {
+      form.classList.add('inactive')
+      var error = document.querySelectorAll('.post-error')[0]
+      error.classList.add('active')
+    })
+    XHR.open('POST', '#')
+    XHR.send(FD)
+  }
+
+  var form = document.querySelectorAll('.my-form')[0]
+  form.addEventListener('submit', function (e) {
+    e.preventDefault()
+    sendData()
+  })
+
+}
+
+export default sendFormData
+</script>

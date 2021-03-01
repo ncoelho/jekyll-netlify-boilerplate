@@ -229,6 +229,17 @@
 .reasons {
 	background: #F3F3F3;
 }
+.result {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.inactive {
+  display: none;
+}
 .important li  {
 	margin: 0 !important;
 }

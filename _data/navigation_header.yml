@@ -25,7 +25,7 @@ right:
 #        url: /lightning/
 #
   - title: add signal
-    url: /
+    url: /add/
     button: primary
 
 # Navbar right menu navigation links
