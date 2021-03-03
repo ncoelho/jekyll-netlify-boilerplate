@@ -22,11 +22,9 @@ function slugify(string) {
     .replace(/-+$/, ""); // Trim - from end of text
 }
 
-const fileName = `${slugify(client_payload.name)}-${slugify(
-  client_payload.title
-)}`;
+const fileName = `${slugify(client_payload.date)}-${slugify(client_payload.title)}`;
 
 fs.writeFileSync(
-  `submissions/${fileName}.json`,
+  `_posts/${fileName}.md`,
   JSON.stringify(client_payload)
 );
