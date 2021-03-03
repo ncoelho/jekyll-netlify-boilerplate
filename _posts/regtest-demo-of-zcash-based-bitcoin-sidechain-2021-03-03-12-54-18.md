@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-03-03 12:54:18
+date: 2021-03-01 12:54:18
 categories: software
 title: Regtest demo of zcash based bitcoin sidechain
 description: Privacy benefits of zcash without the shitcoin. Needs BIP300 to
