@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-03-03 12:58:52
+date: 2021-03-03 07:00:31
 categories: article
 title: Human Rights Foundation Announces $70,000 In Bitcoin Development Grants
 description: Awarded to Jesse Posner, Munn Wallet, Janine and Blockchain Commons.
