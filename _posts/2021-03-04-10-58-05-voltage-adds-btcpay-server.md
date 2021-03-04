@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-03-04 10:58:05
+date: 2021-03-04 09:53:05
 categories: software
 title: Voltage adds BTCPay Server
 description: You can now accept Bitcoin and Lightning payments with BTCPay
